@@ -1,0 +1,11 @@
+loopBasic(){ 
+#!/bin/bash
+echo "Please enter a number"; 
+read number; 
+looper=1;
+echo "Start the loop!"; 
+while [ $looper -le $number ]; 
+do  echo "${looper}"; 
+((looper++)); 
+done; 
+}

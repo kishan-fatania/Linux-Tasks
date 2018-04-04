@@ -1,0 +1,14 @@
+numberAdd(){ 
+#!/bin/bash
+echo "Please enter your first number"; 
+read num1;
+echo "Please enter your second number"; 
+read num2;
+((sum = num1 + num2)); 
+if (( sum % 2 == 0 )); 
+then echo "the sum of your numbers is even";
+else echo "the sum of your numbers is odd"; 
+fi; 
+}
+
+
